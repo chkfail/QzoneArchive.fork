@@ -4,9 +4,8 @@ import { onMounted, ref, watch } from "vue";
 import Button from "primevue/button";
 import Dialog from "primevue/dialog";
 import InputNumber from "primevue/inputnumber";
-import { getVersion, openUrl } from "../utils/ipc";
+import { getVersion } from "../utils/ipc";
 import { useAuthStore } from "../stores/auth";
-import { AUTHOR_NAME, AUTHOR_URL } from "../utils/appMeta";
 import { DEFAULT_ARCHIVE_INTERVAL, MIN_ARCHIVE_INTERVAL, getArchiveInterval, resetAppSettings, setArchiveInterval } from "../utils/appSettings";
 import { deleteAllAppData } from "../utils/qzone";
 
@@ -67,7 +66,7 @@ async function deleteEverything() {
     <p v-if="error" class="archive-error"><i class="pi pi-exclamation-circle" />{{ error }}</p>
     <article class="surface-card settings-card about-card">
       <div class="about-main">
-        <div class="settings-copy"><span class="settings-icon"><i class="pi pi-info-circle" /></span><div><h3>关于</h3><p>Qzone Archive · 跨平台空间归档工具</p><p class="author-line">作者：<button class="author-link" type="button" @click="openUrl(AUTHOR_URL)">{{ AUTHOR_NAME }} <i class="pi pi-external-link" /></button></p></div></div>
+        <div class="settings-copy"><span class="settings-icon"><i class="pi pi-info-circle" /></span><div><h3>关于</h3><p>Qzone Archive · 跨平台空间归档工具</p></div></div>
         <span class="version-badge">{{ appVersion ? `v${appVersion}` : "版本未知" }}</span>
       </div>
     </article>

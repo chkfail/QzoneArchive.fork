@@ -56,9 +56,9 @@ npm run package:linux
 
 | 平台 | 安装形态 | 元数据 |
 |:---:|:---:|:---:|
-| Windows | NSIS, 当前用户安装, 不请求管理员权限, 向导语言包含简体中文与英文 | 应用标识 `github.julardepick.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icon.ico` |
-| macOS | 磁盘映像与压缩包 | 应用标识 `github.julardepick.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icon.icns`, 分类 Utility |
-| Linux | AppImage 与 deb | 应用标识 `github.julardepick.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icons/`, 分类 Utility |
+| Windows | NSIS, 当前用户安装, 不请求管理员权限, 向导语言包含简体中文与英文 | 应用标识 `io.github.chkfail.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icon.ico` |
+| macOS | 磁盘映像与压缩包 | 应用标识 `io.github.chkfail.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icon.icns`, 分类 Utility |
+| Linux | AppImage 与 deb | 应用标识 `io.github.chkfail.qzonearchive`, 产品名 `QzoneArchive`, 版本取 `package.json`, 图标 `build/icons/`, 分类 Utility |
 
 打包只包含 `dist/electron/`, `dist/renderer/` 与 `package.json`, 以 asar 归档进 `resources/app.asar`, 不携带 `node_modules`。产物目录 `release/` 不进入版本追踪。
 

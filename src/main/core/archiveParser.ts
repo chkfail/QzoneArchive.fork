@@ -1,8 +1,6 @@
 /**
  * 归档记录解析
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/archive.rs 的解析部分: text_at, stable_feed_hash,
  * parse_feed, save_original_dynamic 的字段判定, comment_from_values, reply_from_value, merge_comments
  * 以及图片与视频地址提取

@@ -5,7 +5,7 @@ import { withBase } from "vitepress";
 type Platform = "windows" | "macos" | "linux";
 type ThemeMode = "system" | "light" | "dark";
 
-const githubUrl = "https://github.com/JularDepick/QzoneArchive.fork";
+const githubUrl = "https://github.com/chkfail/QzoneArchive.fork";
 const releaseUrl = `${githubUrl}/releases/latest`;
 const scrolled = ref(false);
 const selectedPlatform = ref<Platform>("windows");

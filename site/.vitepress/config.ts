@@ -9,7 +9,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "文档", link: "/intro/" },
-      { text: "GitHub", link: "https://github.com/JularDepick/QzoneArchive.fork" },
+      { text: "GitHub", link: "https://github.com/chkfail/QzoneArchive.fork" },
     ],
     sidebar: [
       { text: "开始使用", items: [{ text: "概览", link: "/intro/" }, { text: "安装", link: "/install/" }, { text: "首次归档", link: "/first-archive/" }, { text: "数据与安全", link: "/data-and-safety/" }] },

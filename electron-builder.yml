@@ -3,9 +3,8 @@
 # 只分发构建产物与 package.json: 主进程与预加载脚本仅依赖 electron 与 Node 内置模块,
 # 渲染进程依赖已由 Vite 打进 dist/renderer, 因此不需要随包分发 node_modules。
 # 产物输出到 release/, 该目录不进入版本追踪。
-appId: github.julardepick.qzonearchive
+appId: io.github.chkfail.qzonearchive
 productName: QzoneArchive
-copyright: Copyright © 2026 JularDepick
 
 directories:
   output: release
@@ -58,7 +57,6 @@ mac:
 linux:
   icon: build/icons
   category: Utility
-  maintainer: JularDepick
   target:
     - AppImage
     - deb

@@ -1,8 +1,6 @@
 /**
  * 归档 HTML 导出
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/archive.rs 的 export_archived_html(2498-2640)
  * 以及它用到的 html_escape(2378), qzone_text_html(2387), archive_items_for_export(2414)
  * 本模块是纯 Node 层, 禁止 import electron: 只生成单文件 HTML 字符串,

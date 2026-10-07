@@ -1,8 +1,6 @@
 /**
  * 归档引擎
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/archive.rs 的主流程部分: now, archive_page_delay_ms,
  * set_progress, concise_archive_error, fetch_after_skipped_cursor, start_feed_archive,
  * get_archive_progress, cancel_feed_archive, list_archive_skips, clear_resolved_archive_skips,

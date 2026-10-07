@@ -1,8 +1,6 @@
 /**
  * QQ 登录基础件
  *
- * 作者: JularDepick
- *
  * 无状态的纯函数与纯类型集合: 哈希, 随机 Cookie 值, 移动端 UA 选择, Cookie 解析合并, 回调文本解析
  * 行为基准为 temp/reference/src-tauri/src/qlogin.rs, 算法与错误字符串都与之对齐
  * 本模块不 import 任何模块, 因此可以被系统 Node 直接加载做单测

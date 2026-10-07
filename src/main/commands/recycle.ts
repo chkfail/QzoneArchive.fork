@@ -1,8 +1,6 @@
 /**
  * 相册回收站与相册命令
  *
- * 作者: JularDepick
- *
  * 本文件只负责 Electron 边界: 独立密码验证窗口的生命周期, pwd2sig 抓取时机, 凭证注入
  * 请求构造与响应解析都在 core/recycle.ts 内实现, 便于普通 Node 下自测
  * 原实现在 Windows 上依赖 WebView2 的 AddWebResourceRequestedFilter 钩子,

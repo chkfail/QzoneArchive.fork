@@ -1,8 +1,6 @@
 /**
  * QQ 空间相册回收站与相册接口
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/qzone.rs 的回收站与相册部分:
  * 接口地址, 查询参数与表单字段顺序, 请求头, 错误字符串都与之逐项对齐
  * 本模块是纯 Node 层, 禁止 import electron: 凭证由调用方注入, 独立密码签名只留在进程内存

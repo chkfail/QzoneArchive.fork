@@ -19,10 +19,6 @@
 .about-card { display: grid; align-items: stretch; gap: 22px; }
 .about-main { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .about-main .version-badge { flex: 0 0 auto; }
-.author-line { margin-top: 7px !important; }
-.author-link { padding: 0; border: 0; color: var(--primary); background: transparent; font: inherit; cursor: pointer; }
-.author-link:hover { text-decoration: underline; }
-.author-link .pi { margin-left: 3px; font-size: 10px; }
 
 @media (max-width: 760px) {
   .about-main { align-items: flex-start; }

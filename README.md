@@ -2,8 +2,7 @@
 
 # 空间归档 (QzoneArchive)
 
-[![Version](https://img.shields.io/badge/Version-2.0.0-red)](https://github.com/JularDepick/JularDepick/tree/main)
-[![Copyright](https://img.shields.io/badge/Copyright-JularDepick-0066AA)](./COPYRIGHT)
+[![Version](https://img.shields.io/badge/Version-2.0.0-red)](https://github.com/chkfail/QzoneArchive.fork)
 [![License](https://img.shields.io/badge/License-GPLv3-yellow)](./LICENSE)
 
 [English](./README_en-US.md) |
@@ -19,14 +18,6 @@
 > **近期出现因使用非仓库来源软件而导致账号信息泄露的情况，请务必仔细甄别软件来源。除本仓库发布的内容外，任何其他来源的程序均不可信，请勿下载或使用。**
 
 > 本项目 fork 自 https://github.com/Gaoshu705/QzoneArchive
-
-<a href="https://www.star-history.com/#JularDepick/QzoneArchive.fork&date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&legend=top-left" />
- </picture>
-</a>
 
 ## 功能
 
@@ -92,7 +83,7 @@ QzoneArchive.fork/
 │   │   ├── utils/              # 工具函数与后端命令封装
 │   │   └── views/              # 页面组件
 │   └── shared/                 # 桥接契约与共享类型
-├── COPYRIGHT                   # 本分支版权归属
+├── COPYRIGHT                   # 版权与许可说明
 ├── LICENSE                     # GPLv3 许可证
 ├── README.md                   # 中文说明(核心)
 ├── README_en-US.md             # 英文说明
@@ -191,12 +182,6 @@ npm run package:linux
 ## 免责声明
 
 本软件是用于整理和备份个人 QQ 空间资料的本地工具，与腾讯公司、QQ、QQ 空间及其关联主体不存在隶属、授权、合作关系。使用者应在合法授权范围内使用，并自行承担使用风险。详见应用内《免责声明与使用须知》。
-
-## 版权信息
-
-Copyright &copy; 2026 JularDepick
-
-详见 [COPYRIGHT](./COPYRIGHT)
 
 ## 许可证
 

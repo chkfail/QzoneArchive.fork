@@ -2,8 +2,7 @@
 
 # QzoneArchive
 
-[![Version](https://img.shields.io/badge/Version-2.0.0-red)](https://github.com/JularDepick/JularDepick/tree/main)
-[![Copyright](https://img.shields.io/badge/Copyright-JularDepick-0066AA)](./COPYRIGHT)
+[![Version](https://img.shields.io/badge/Version-2.0.0-red)](https://github.com/chkfail/QzoneArchive.fork)
 [![License](https://img.shields.io/badge/License-GPLv3-yellow)](./LICENSE)
 
 [English] |
@@ -19,14 +18,6 @@ A desktop tool that archives QQ Zone posts, photos, videos and interactions to l
 > **Software from outside this repository has recently caused account credential leaks. Verify the source of any build carefully. Nothing except what this repository publishes can be trusted; do not download or run it.**
 
 > This project is a fork of https://github.com/Gaoshu705/QzoneArchive
-
-<a href="https://www.star-history.com/#JularDepick/QzoneArchive.fork&date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=JularDepick/QzoneArchive.fork&type=date&legend=top-left" />
- </picture>
-</a>
 
 ## Features
 
@@ -91,7 +82,7 @@ QzoneArchive.fork/
 │   │   ├── utils/              # Helpers and backend command wrappers
 │   │   └── views/              # Page components
 │   └── shared/                 # Bridge contract and shared types
-├── COPYRIGHT                   # Copyright of this branch
+├── COPYRIGHT                   # Copyright and license notes
 ├── LICENSE                     # GPLv3 license
 ├── README.md                   # Chinese documentation (primary)
 ├── README_en-US.md             # English documentation
@@ -189,12 +180,6 @@ Credentials (cookies) are kept in main process memory only. They are never writt
 ## Disclaimer
 
 This software is a local tool for organising and backing up personal QQ Zone material. It is not affiliated with, authorized by, or partnered with Tencent, QQ, QQ Zone or any related entity. Use it within the scope of what you are legally authorized to do and at your own risk. See the in-app Disclaimer and usage notice for details.
-
-## Copyright
-
-Copyright &copy; 2026 JularDepick
-
-See [COPYRIGHT](./COPYRIGHT)
 
 ## License
 

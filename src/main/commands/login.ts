@@ -1,8 +1,6 @@
 /**
  * QQ 登录命令
  *
- * 作者: JularDepick
- *
  * 二维码登录与凭证合并全部在 core/login.ts 中实现; 网页登录需要浏览器窗口与会话 Cookie,
  * 这里把 Electron 侧的实现注入 core 定义的 QzoneWebLoginHost
  */

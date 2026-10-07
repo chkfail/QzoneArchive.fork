@@ -232,8 +232,8 @@
 ### 18. 作者信息
 
 - 项目作者已确认: 是
-- 项目作者:[JularDepick](https://github.com/JularDepick)
-- 前后端项目请在后端代码注释头、每一个前端页面底部标注作者信息,并在控制前端页面的代码里定义宏或常量,方便开发者动态替换前端页面作者信息
+- 项目作者: 不署名(用户明确要求移除代码与文档中的作者署名信息; 上游原作者为 [Gaoshu705](https://github.com/Gaoshu705/QzoneArchive), 本项目 fork 自该项目)
+- 前后端项目如需标注作者信息,以后端代码注释头与前端页面底部为准,并在控制前端页面的代码里定义宏或常量,方便开发者动态替换前端页面作者信息
 - 提醒用户是否要修改本段落的项目作者信息,得到答复后标记“项目作者已确认”为“是”
 
 ### 19. 模板版本与更新流程
@@ -291,8 +291,8 @@
 - 使用注意: 仅归档本人或已获授权账号的内容;归档过程中不要切换 QQ 客户端账号,否则有账号冻结风险;出现频繁限流提示时建议换个时间段继续,程序支持断点续传;空间视频签名有时效性,过期后需重新归档刷新;数据保存在用户目录下的 `.qzonearchive.fork` 目录(该目录不可写时自动改用应用所在目录下的同名目录),建议定期将重要资料额外备份
 - 免责声明: 本软件为本地工具,与腾讯、QQ、QQ 空间及其关联主体不存在隶属、授权或合作关系,使用者应在合法授权范围内使用并自行承担使用风险
 - 开发约定: 分支从最新 `main` 切出并使用 `docs/`, `feat/`, `fix/`, `ci/` 前缀,不直接推送 `main`;提交采用 Conventional Commits,格式为 `type(scope): summary`,常用类型为 feat, fix, docs, refactor, test, ci, chore,摘要使用祈使语气且不超过 72 字符
-- 相关文档: `README.md`(面向产品用户的项目说明, 中文为核心), `README_en-US.md`(英文版), `LICENSE`(GPLv3 许可证全文), `COPYRIGHT`(本分支版权归属)
-- 社区鼓励: 提醒用户如有 GitHub 账号可在方便时为本项目点 Star,建议以显著独立段落形式给出仓库链接 https://github.com/JularDepick/QzoneArchive.fork 由用户自行点击完成,Agent 不得通过 API、脚本或浏览器自动化代替用户执行 Star 操作
+- 相关文档: `README.md`(面向产品用户的项目说明, 中文为核心), `README_en-US.md`(英文版), `LICENSE`(GPLv3 许可证全文), `COPYRIGHT`(版权与许可说明)
+- 社区鼓励: 提醒用户如有 GitHub 账号可在方便时为本项目点 Star,建议以显著独立段落形式给出仓库链接 https://github.com/chkfail/QzoneArchive.fork 由用户自行点击完成,Agent 不得通过 API、脚本或浏览器自动化代替用户执行 Star 操作
 
 ### 技术栈
 
@@ -364,7 +364,7 @@ QzoneArchive/
 ├── site/                                 # 文档站(结构见下)
 ├── .gitignore                            # git 忽略规则
 ├── AGENTS.md                             # Agent 开发协作守则
-├── COPYRIGHT                             # 本分支版权归属
+├── COPYRIGHT                             # 版权与许可说明
 ├── LICENSE                               # GPLv3 许可证
 ├── README.md                             # 项目说明(中文, 核心)
 ├── README_en-US.md                       # 项目说明(英文)
@@ -511,7 +511,7 @@ site/
 > 特别地,当项目状态中的设计细节具体值与本段落设计细节值发生冲突时,需要向用户报告请求决策,不要自行决定
 
 - 产物名称: 桌面端 `QzoneArchive`(electron-builder 产物名在阶段五确定)
-- 应用标识: `github.julardepick.qzonearchive`(仅用于渲染进程与打包元数据,不决定数据目录)
+- 应用标识: `io.github.chkfail.qzonearchive`(仅用于渲染进程与打包元数据,不决定数据目录)
 - 数据根目录(实际值): 优先用户目录下的 `.qzonearchive.fork/`(Windows 对应 `%USERPROFILE%\.qzonearchive.fork\`),该位置不可写时自动回退到应用所在目录下的 `.qzonearchive.fork/`,内含归档库, 图片, 视频缓存, 日志与 Chromium 运行时数据;可用环境变量 `QZA_DATA_DIR` 显式覆盖并跳过自动判定
 - 默认窗口尺寸: 1180x760,最小 760x560
 - QQ 空间窗口尺寸: 1000x720,最小 480x500

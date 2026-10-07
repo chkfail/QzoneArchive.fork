@@ -1,8 +1,6 @@
 /**
  * 归档媒体加载与缓存
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/archive.rs 的 list_archived_media(2082-2166),
  * load_archived_image(1048-1165), load_archived_video(1202-1310) 以及它用到的
  * existing_archived_image(1027), archived_image_extension(993), is_qq_missing_image_placeholder(1013)

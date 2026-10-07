@@ -1,16 +1,6 @@
-Copyright (c) 2026 JularDepick
-
-This project is made available under the terms of a license.
-The complete license terms are defined in the LICENSE file
-distributed with this source code.
-
 This repository is a fork of https://github.com/Gaoshu705/QzoneArchive and
 keeps that project's GPLv3 license; upstream authors and contributors retain
-copyright over their own work. Changes made on this branch, including the
-desktop rewrite to Electron and Node TypeScript from version 2.0.0 onward,
-are copyright (c) 2026 JularDepick and licensed under the same terms.
+copyright over their own work.
 
-For inquiries, please contact:
-  JularDepick@gmail.com | 1724834368@qq.com
-
-GitHub: https://github.com/JularDepick
+The complete license terms are defined in the LICENSE file
+distributed with this source code.

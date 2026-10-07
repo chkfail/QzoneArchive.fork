@@ -1,8 +1,6 @@
 /**
  * 归档引擎命令
  *
- * 作者: JularDepick
- *
  * 命令层只负责 Electron 边界: 数据库文件路径取自 paths.ts, 登录凭证取自 core/login.ts,
  * 归档逻辑全部在 core/archiveEngine.ts 中实现, 便于在普通 Node 下自测
  */

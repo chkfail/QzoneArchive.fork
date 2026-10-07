@@ -4,7 +4,7 @@ title: 安装
 
 # 安装
 
-从 [GitHub Releases](https://github.com/JularDepick/QzoneArchive.fork/releases) 下载与设备对应的最新版本。
+从 [GitHub Releases](https://github.com/chkfail/QzoneArchive.fork/releases) 下载与设备对应的最新版本。
 
 ## Windows
 

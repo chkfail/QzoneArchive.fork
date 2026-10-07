@@ -1,8 +1,6 @@
 /**
  * QQ 登录核心逻辑
  *
- * 作者: JularDepick
- *
  * 行为基准为 temp/reference/src-tauri/src/qlogin.rs: 接口地址, 查询参数, Cookie 名称,
  * 状态机分支, UA 选择策略, bkn 与 ptqrtoken 计算, 错误字符串都与之对齐
  * 登录凭证只保存在本模块的内存变量中, 不落盘, 不写日志, 任何日志位置都不得出现 Cookie 原文

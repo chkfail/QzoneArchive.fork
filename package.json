@@ -3,8 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "description": "将 QQ 空间动态, 照片, 视频与互动记录安全归档到本地。",
-  "homepage": "https://github.com/JularDepick/QzoneArchive.fork",
-  "author": "JularDepick (https://github.com/JularDepick/)",
+  "homepage": "https://github.com/chkfail/QzoneArchive.fork",
   "type": "module",
   "main": "dist/electron/main/index.js",
   "scripts": {
