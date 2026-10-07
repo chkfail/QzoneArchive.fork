@@ -17,7 +17,7 @@
 > [!CAUTION]
 > **近期出现因使用非仓库来源软件而导致账号信息泄露的情况，请务必仔细甄别软件来源。除本仓库发布的内容外，任何其他来源的程序均不可信，请勿下载或使用。**
 
-> 本项目 fork 自 https://github.com/Gaoshu705/QzoneArchive
+> 本项目 fork 自 https://github.com/JularDepick/QzoneArchive.fork(Electron 重构分支), 其上游原项目为 https://github.com/Gaoshu705/QzoneArchive
 
 ## 功能
 

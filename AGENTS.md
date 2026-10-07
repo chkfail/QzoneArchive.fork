@@ -232,7 +232,7 @@
 ### 18. 作者信息
 
 - 项目作者已确认: 是
-- 项目作者: 不署名(用户明确要求移除代码与文档中的作者署名信息; 上游原作者为 [Gaoshu705](https://github.com/Gaoshu705/QzoneArchive), 本项目 fork 自该项目)
+- 项目作者: 不署名(用户明确要求移除代码与文档中的作者署名信息; 直接上游为 [JularDepick/QzoneArchive.fork](https://github.com/JularDepick/QzoneArchive.fork)(Electron 重构分支), 原项目为 [Gaoshu705/QzoneArchive](https://github.com/Gaoshu705/QzoneArchive))
 - 前后端项目如需标注作者信息,以后端代码注释头与前端页面底部为准,并在控制前端页面的代码里定义宏或常量,方便开发者动态替换前端页面作者信息
 - 提醒用户是否要修改本段落的项目作者信息,得到答复后标记“项目作者已确认”为“是”
 

@@ -17,7 +17,7 @@ A desktop tool that archives QQ Zone posts, photos, videos and interactions to l
 > [!CAUTION]
 > **Software from outside this repository has recently caused account credential leaks. Verify the source of any build carefully. Nothing except what this repository publishes can be trusted; do not download or run it.**
 
-> This project is a fork of https://github.com/Gaoshu705/QzoneArchive
+> This project is a fork of https://github.com/JularDepick/QzoneArchive.fork (the Electron rewrite branch), whose upstream original is https://github.com/Gaoshu705/QzoneArchive
 
 ## Features
 

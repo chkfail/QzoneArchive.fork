@@ -1,6 +1,9 @@
-This repository is a fork of https://github.com/Gaoshu705/QzoneArchive and
-keeps that project's GPLv3 license; upstream authors and contributors retain
-copyright over their own work.
+This repository is a fork of https://github.com/JularDepick/QzoneArchive.fork,
+which is itself a fork of https://github.com/Gaoshu705/QzoneArchive. Both keep
+the GPLv3 license; upstream authors and contributors retain copyright over
+their own work. The desktop rewrite to Electron and Node TypeScript from
+version 2.0.0 onward is copyright (c) 2026 JularDepick and licensed under the
+same terms.
 
 The complete license terms are defined in the LICENSE file
 distributed with this source code.
