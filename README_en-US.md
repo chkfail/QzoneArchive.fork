@@ -70,7 +70,7 @@ QzoneArchive.fork/
 │   ├── ISSUE_TEMPLATE/         # Issue templates
 │   └── workflows/              # Quality checks, docs deployment, release packaging
 ├── build/                      # Packaging icons (ico, icns and png size set)
-├── public/                     # README screenshots and sponsor codes
+├── public/                     # README screenshots
 ├── scripts/                    # Development and self-check scripts
 ├── site/                       # VitePress documentation site
 ├── src/
@@ -189,14 +189,6 @@ Credentials (cookies) are kept in main process memory only. They are never writt
 ## Disclaimer
 
 This software is a local tool for organising and backing up personal QQ Zone material. It is not affiliated with, authorized by, or partnered with Tencent, QQ, QQ Zone or any related entity. Use it within the scope of what you are legally authorized to do and at your own risk. See the in-app Disclaimer and usage notice for details.
-
-## Sponsorship
-
-If this project helps you, you are welcome to buy the developer a coffee
-
-| WeChat | Alipay | Appreciation |
-|------|--------|------|
-| ![WeChat payment code](public/sponsor/wechatpay.png) | ![Alipay payment code](public/sponsor/alipay.jpg) | ![Appreciation code](public/sponsor/reward.png) |
 
 ## Copyright
 

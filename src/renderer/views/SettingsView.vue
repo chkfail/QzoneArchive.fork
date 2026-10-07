@@ -18,11 +18,6 @@ const deleteVisible = ref(false);
 const deleting = ref(false);
 const error = ref("");
 const appVersion = ref("");
-const sponsorImages = {
-  wechat: "/sponsor/wechatpay.png",
-  alipay: "/sponsor/alipay.jpg",
-  reward: "/sponsor/reward.png",
-};
 
 onMounted(async () => {
   try {
@@ -31,10 +26,6 @@ onMounted(async () => {
     console.warn("读取应用版本失败", reason);
   }
 });
-
-function hideMissingSponsorCode(event: Event) {
-  (event.currentTarget as HTMLImageElement).hidden = true;
-}
 
 watch(intervalMs, (value) => { intervalMs.value = setArchiveInterval(value); });
 
@@ -78,14 +69,6 @@ async function deleteEverything() {
       <div class="about-main">
         <div class="settings-copy"><span class="settings-icon"><i class="pi pi-info-circle" /></span><div><h3>关于</h3><p>Qzone Archive · 跨平台空间归档工具</p><p class="author-line">作者：<button class="author-link" type="button" @click="openUrl(AUTHOR_URL)">{{ AUTHOR_NAME }} <i class="pi pi-external-link" /></button></p></div></div>
         <span class="version-badge">{{ appVersion ? `v${appVersion}` : "版本未知" }}</span>
-      </div>
-      <div class="sponsor-section">
-        <div class="sponsor-heading"><div><h4>赞助支持</h4><p>如果这个项目帮助到了你，可以请作者喝杯咖啡。</p></div><i class="pi pi-heart-fill" /></div>
-        <div class="sponsor-codes">
-          <figure class="sponsor-code"><div class="sponsor-qr"><span><i class="pi pi-image" />收款码未加载</span><img :src="sponsorImages.wechat" alt="微信收款码" @error="hideMissingSponsorCode" /></div><figcaption><i class="pi pi-wallet" />微信</figcaption></figure>
-          <figure class="sponsor-code"><div class="sponsor-qr"><span><i class="pi pi-image" />收款码未加载</span><img :src="sponsorImages.alipay" alt="支付宝收款码" @error="hideMissingSponsorCode" /></div><figcaption><i class="pi pi-wallet" />支付宝</figcaption></figure>
-          <figure class="sponsor-code"><div class="sponsor-qr"><span><i class="pi pi-image" />赞赏码未加载</span><img :src="sponsorImages.reward" alt="赞赏码" @error="hideMissingSponsorCode" /></div><figcaption><i class="pi pi-heart" />赞赏</figcaption></figure>
-        </div>
       </div>
     </article>
   </section>

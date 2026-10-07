@@ -71,7 +71,7 @@ QzoneArchive.fork/
 │   ├── ISSUE_TEMPLATE/         # Issue 模板
 │   └── workflows/              # 质量检查, 文档站发布, Release 打包
 ├── build/                      # 打包图标(ico, icns 与 png 尺寸集)
-├── public/                     # README 截图与赞助码
+├── public/                     # README 截图
 ├── scripts/                    # 开发启动与自检脚本
 ├── site/                       # VitePress 文档站
 ├── src/
@@ -191,15 +191,6 @@ npm run package:linux
 ## 免责声明
 
 本软件是用于整理和备份个人 QQ 空间资料的本地工具，与腾讯公司、QQ、QQ 空间及其关联主体不存在隶属、授权、合作关系。使用者应在合法授权范围内使用，并自行承担使用风险。详见应用内《免责声明与使用须知》。
-
-## 赞赏
-
-如果这个项目对你有帮助，欢迎请开发者喝杯咖啡
-
-| 微信 | 支付宝 | 赞赏 |
-|------|--------|------|
-| ![微信收款码](public/sponsor/wechatpay.png) | ![支付宝收款码](public/sponsor/alipay.jpg) | ![赞赏码](public/sponsor/reward.png) |
-
 
 ## 版权信息
 

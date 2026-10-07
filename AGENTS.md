@@ -352,7 +352,6 @@ QzoneArchive/
 │   └── extensions.json                   # 推荐编辑器扩展
 ├── public/
 │   ├── runtime/                          # README 页面截图
-│   ├── sponsor/                          # 赞助二维码图片
 │   ├── app-icon.png                      # 应用图标
 │   ├── product-hero.png                  # 展示图
 │   └── vite.svg                          # Vite 图标

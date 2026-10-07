@@ -15,7 +15,7 @@
   --shadow: 0 12px 32px rgba(30, 55, 90, .07);
 }
 
-/* Settings about and sponsorship */
+/* Settings about */
 .about-card { display: grid; align-items: stretch; gap: 22px; }
 .about-main { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .about-main .version-badge { flex: 0 0 auto; }
@@ -23,21 +23,9 @@
 .author-link { padding: 0; border: 0; color: var(--primary); background: transparent; font: inherit; cursor: pointer; }
 .author-link:hover { text-decoration: underline; }
 .author-link .pi { margin-left: 3px; font-size: 10px; }
-.sponsor-section { padding-top: 18px; border-top: 1px solid var(--border); }
-.sponsor-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
-.sponsor-heading h4 { margin: 0 0 4px; }
-.sponsor-heading > .pi { color: #ef6a88; }
-.sponsor-codes { display: grid; grid-template-columns: repeat(3,minmax(0,180px)); gap: 16px; }
-.sponsor-code { min-width: 0; margin: 0; }
-.sponsor-qr { position: relative; overflow: hidden; width: 100%; aspect-ratio: 1; border: 1px dashed var(--border); border-radius: 14px; background: var(--app-bg); }
-.sponsor-qr > span { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; padding: 14px; color: var(--muted); font-size: 12px; text-align: center; }
-.sponsor-qr > span .pi { font-size: 20px; }
-.sponsor-qr img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; }
-.sponsor-code figcaption { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 8px; color: var(--heading); font-size: 13px; }
 
 @media (max-width: 760px) {
   .about-main { align-items: flex-start; }
-  .sponsor-codes { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
 }
 
 * { box-sizing: border-box; -webkit-user-select: none; user-select: none; }
